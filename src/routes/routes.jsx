@@ -6,6 +6,7 @@ import InfiniteImage from "../pages/InfiniteImage";
 import MarqueeAnimation from "../pages/MarqueeAnimation";
 import LogoShrinkScroll from "../pages/LogoShrinkScroll";
 import NavIconMove from "../pages/NavIconMove";
+import RevealOnScroll from "../pages/RevealOnScroll";
 
 const router = createBrowserRouter([
   {
@@ -37,8 +38,12 @@ const router = createBrowserRouter([
         element: <LogoShrinkScroll />,
       },
       {
-        path: "nav-header",
+        path: "/nav-header",
         element: <NavIconMove />,
+      },
+      {
+        path: "/reveal-on-scroll",
+        element: <RevealOnScroll />,
       },
     ],
   },

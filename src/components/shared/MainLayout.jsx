@@ -21,6 +21,7 @@ const MainLayout = () => {
     // { label: "Logo Shrink on Scroll", path: "/logo-shrink-on-scroll" },
     { label: "Marquee Animation", path: "/marquee-animation" },
     { label: "Nav Header", path: "/nav-header" },
+    { label: "Reveal On Scroll", path: "/reveal-on-scroll" },
   ];
 
   return (
@@ -43,7 +44,6 @@ const MainLayout = () => {
       </button>
 
       <aside
-        id="sidebar-multi-level-sidebar"
         className={`fixed top-0 left-0 z-40 w-64 h-screen transition-transform ${
           isSidebarOpen ? "translate-x-0" : "-translate-x-full"
         } sm:translate-x-0`}
