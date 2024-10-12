@@ -20,6 +20,7 @@ const MainLayout = () => {
     { label: "Infinite Image", path: "/infinite-image" },
     { label: "Logo Shrink on Scroll", path: "/logo-shrink-on-scroll" },
     { label: "Marquee Animation", path: "/marquee-animation" },
+    { label: "Nav Header", path: "/nav-header" },
   ];
 
   return (

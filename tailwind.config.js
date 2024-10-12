@@ -8,6 +8,9 @@ export default {
         secondary: "#0E100F",
         text: "#f6f7f7",
       },
+      fontFamily: {
+        spicy: ["Spicy-Rice", "serif"],
+      },
     },
   },
   plugins: [],
