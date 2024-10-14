@@ -22,6 +22,8 @@ const MainLayout = () => {
     { label: "Marquee Animation", path: "/marquee-animation" },
     { label: "Nav Header", path: "/nav-header" },
     { label: "Reveal On Scroll", path: "/reveal-on-scroll" },
+    { label: "Window", path: "/window" },
+    { label: "Horizontal Scroll", path: "/horizontal-scroll" },
   ];
 
   return (

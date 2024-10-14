@@ -7,6 +7,8 @@ import MarqueeAnimation from "../pages/MarqueeAnimation";
 import LogoShrinkScroll from "../pages/LogoShrinkScroll";
 import NavIconMove from "../pages/NavIconMove";
 import RevealOnScroll from "../pages/RevealOnScroll";
+import Window from "../pages/Window";
+import HorizontalScroll from "../pages/HorizontalScroll";
 
 const router = createBrowserRouter([
   {
@@ -44,6 +46,14 @@ const router = createBrowserRouter([
       {
         path: "/reveal-on-scroll",
         element: <RevealOnScroll />,
+      },
+      {
+        path: "/window",
+        element: <Window />,
+      },
+      {
+        path: "/horizontal-scroll",
+        element: <HorizontalScroll />,
       },
     ],
   },
