@@ -24,6 +24,7 @@ const MainLayout = () => {
     { label: "Reveal On Scroll", path: "/reveal-on-scroll" },
     { label: "Window", path: "/window" },
     { label: "Horizontal Scroll", path: "/horizontal-scroll" },
+    { label: "Carousel", path: "/carousel" },
   ];
 
   return (
@@ -31,7 +32,7 @@ const MainLayout = () => {
       <button
         type="button"
         onClick={toggleSidebar}
-        className="inline-flex items-center p-2 mt-2 ms-3 text-sm text-gray-500 rounded-lg sm:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200  "
+        className="inline-flex items-center p-2 mt-2 text-sm text-gray-500 rounded-lg ms-3 sm:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 "
       >
         <span className="sr-only">Open sidebar</span>
         <svg
@@ -52,9 +53,9 @@ const MainLayout = () => {
         aria-label="Sidebar"
       >
         <div className="h-full px-3 py-4 overflow-y-auto bg-secondary">
-          <div className=" flex w-full flex-col items-center justify-center">
-            <img className=" w-20 h-20" src={logo} alt="" />
-            <h1 className=" text-center text-primary text-xl pt-4 pb-10">
+          <div className="flex flex-col items-center justify-center w-full ">
+            <img className="w-20 h-20 " src={logo} alt="" />
+            <h1 className="pt-4 pb-10 text-xl text-center  text-primary">
               Gsap ScrollTrigger
             </h1>
           </div>

@@ -9,6 +9,7 @@ import NavIconMove from "../pages/NavIconMove";
 import RevealOnScroll from "../pages/RevealOnScroll";
 import Window from "../pages/Window";
 import HorizontalScroll from "../pages/HorizontalScroll";
+import Carousel from "../pages/Carousel";
 
 const router = createBrowserRouter([
   {
@@ -54,6 +55,10 @@ const router = createBrowserRouter([
       {
         path: "/horizontal-scroll",
         element: <HorizontalScroll />,
+      },
+      {
+        path: "/carousel",
+        element: <Carousel />,
       },
     ],
   },
